@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node test.ts",
+    "dev": "ts-node test.ts"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
