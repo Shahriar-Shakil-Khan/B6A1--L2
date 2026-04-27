@@ -1,8 +1,13 @@
+// If the input is a string → return the string in uppercase
+// If the input is a number → return the number multiplied by 10
+// If the input is a boolean → return the opposite value
+
 import promptSync from "prompt-sync";
 const prompt = promptSync();
+const value = prompt('Enter a value string or number or boolean as you wish :');
 
 function formatValue(): string | number | boolean {
-    const value = prompt('Enter a value string or number or boolean as you wish :');
+    
 
     if (value === "true") {
         return false;
